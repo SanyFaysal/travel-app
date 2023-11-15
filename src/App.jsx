@@ -1,12 +1,14 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
+import Banner from "./components/home_component/Banner";
+import BrowseCategory from "./components/home_component/BrowseCategory";
+import Navbar from "./components/shared/Navbar";
 
 function App() {
   return (
     <>
-      <h1 className="">hi</h1>
+      <Navbar />
+      <Banner />
+      <BrowseCategory />
     </>
   );
 }
